@@ -9,17 +9,25 @@ class AcmeProductTests(unittest.TestCase):
         """Test default product price being 10."""
         prod = Product('Test Product')
         self.assertEqual(prod.price, 10)
+
     def test_default_product_weight(self):
-        #test default product weight = 20
+        # test default product weight = 20
         prod = Product('Test Product')
         self.assertEqual(prod.weight, 20)
+
     def test_default_product_flammability(self):
         prod = Product('Test Product')
         self.assertEqual(prod.flammability, .5)
 
 
+class AcmeReportTests(unittest.TestCase):
+    def test_default_num_products(self):
+        
 
-if __name__ == '__main__':
+    def test_legal_names(self):
+        pass
+
+if __name__ == "__main__":
     test_product = Product('test', price=15, weight=25, flammability=2)
     print(test_product.explode(), test_product.stealability())
     unittest.main()

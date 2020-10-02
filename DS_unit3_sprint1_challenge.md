@@ -286,6 +286,9 @@ career here, you'll have to answer the following:
   slightly different things running on all of them. How could containers help us
   improve this situation?
 
+  A container such as docker is a tool used to automate the set up of a
+  programming environment. Containers are useful because it can store all required dependencies and be run on other computers without running into issues. This tool is often used to standardize environments
+
 Answer both of these questions (baseline ~5 sentences) here in text.
 
 ### Part 8 - Turn it in!
