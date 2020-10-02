@@ -20,9 +20,9 @@ class AcmeProductTests(unittest.TestCase):
         self.assertEqual(prod.flammability, .5)
 
 
-class AcmeReportTests(unittest.TestCase):
+class AcmeReportTests(Product):
     def test_default_num_products(self):
-        
+        self.assertEqual(self.len == 30)
 
     def test_legal_names(self):
         pass
