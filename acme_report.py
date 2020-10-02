@@ -30,13 +30,15 @@ def inventory_report(products):
     total_weight = 0
     total_flammability = 0
     i = 0
+    X = 0
     for a in range(5):
         for b in range(5):
-            while i in range(30):
-                if products[i-1].name == (ADJECTIVES[a] + ' ' + NOUNS[b]):
-                    unique_names = unique_names + 1
-                    break
-                i = i+1
+            for i in range(30):
+                if(products[i-1].name == ADJECTIVES[a] + ' ' + NOUNS[b]):
+                    X = 1
+            if(X == 1):
+                unique_names = unique_names+1
+                X = 0
 
     for i in range(30):
         total_price = total_price + products[i-1].price
