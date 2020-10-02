@@ -277,6 +277,11 @@ career here, you'll have to answer the following:
 - What, in your opinion, is an important part of code reviews? That is, what is
   something you pay attention to when you review code, and that you appreciate
   when others do the same for your code?
+  Code reviews are a time where someone can look over another's code and give suggestions and tips. This is a great time
+  to make sure that the code not only runs efficiently, but is also readable. Even if I know in my head what my code is 
+  supposed to do, someone else can not read my mind so it is important that I have someone else check the readability.
+  This would include the style of the code but also comments.
+  
 - We have an awful lot of computers here, and it gets pretty confusing with
   slightly different things running on all of them. How could containers help us
   improve this situation?
